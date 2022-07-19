@@ -28,5 +28,4 @@
         }
     }
 }
-export default
-
+export const module={Person}
