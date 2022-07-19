@@ -6,7 +6,7 @@
         this.yearOfBirth = yearOfBirth;
         this.hobbies = new Array;
     }
-    
+
     getIMC(){
         return this.weight/((this.height**2)/10000)
     }
@@ -26,7 +26,9 @@
     }
     
     printHobbies(){
-        console.log(this.hobbies) 
+        for (let i = 0; i< this.hobbies.length; i++) {
+          console.log(this.hobbies[i])
+        }
     }
 }
 export {Person}
