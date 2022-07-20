@@ -1,4 +1,4 @@
-class Person{
+export class Person{
     public name:string;
     public age:number;
     private address:string;
@@ -9,18 +9,17 @@ class Person{
         this.address = address;
     }
 
-    printName():void{
+    public printName():void{
         console.log(this.name);
     }
-    yearOfBirth(currentYear:number):number{
+    public yearOfBirth(currentYear:number):number{
        return currentYear-this.age; 
     }
-    setAddress(address:string):void{
+    public setAddress(address:string):void{
         this.address = address;
     }
-    getAddress():string{
+    public getAddress():string{
         return this.address;
     }
 }
 
-export class Person;
