@@ -12,4 +12,15 @@ class Person{
     printName():void{
         console.log(this.name);
     }
+    yearOfBirth(currentYear:number):number{
+       return currentYear-this.age; 
+    }
+    setAddress(address:string):void{
+        this.address = address;
+    }
+    getAddress():string{
+        return this.address;
+    }
 }
+
+export class Person;
