@@ -10,4 +10,5 @@ let contacto = new Contacts;
 contacto.people.push(persona1);
 contacto.people.push(persona2);
 contacto.people.push(persona3);
+contacto.people.push(persona4);
 contacto.printCalendar();
